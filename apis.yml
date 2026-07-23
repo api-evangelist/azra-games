@@ -1,8 +1,12 @@
 aid: azra-games
 name: Azra Games
-description: Azra Games is a company surfaced as a portfolio company of a16z, pantera-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Azra Games is a mobile role-playing game studio founded in 2022 by Mark
+  Otero and headquartered in Sacramento, California. The studio builds RPGs on its
+  proprietary "RPG GameKit" technology, with its flagship title UnGodly, a dark
+  sword-and-sorcery RPG. Azra Games is backed by a16z and Pantera Capital and was
+  added to the API Evangelist network as a company profile. As a game studio it
+  publishes a public website, news, careers, terms, and privacy pages but does not
+  expose a public developer API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/azra-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,30 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://azragames.com/wp-content/uploads/2025/02/azra-logo-color.svg
 tags:
 - Company
+- Gaming
+- Video Games
+- Mobile Games
+- RPG
+- Game Studio
+- Web3
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,14 @@ maintainers:
 common:
 - type: Website
   url: https://www.azragames.com/
+- type: Blog
+  url: https://www.azragames.com/news/
+- type: TermsOfService
+  url: https://www.azragames.com/terms/
+- type: PrivacyPolicy
+  url: https://www.azragames.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
